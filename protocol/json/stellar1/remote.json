@@ -1143,6 +1143,19 @@
         }
       ],
       "response": "DetailsPlusPayments"
+    },
+    "changeTrustline": {
+      "request": [
+        {
+          "name": "caller",
+          "type": "keybase1.UserVersion"
+        },
+        {
+          "name": "signedTransaction",
+          "type": "string"
+        }
+      ],
+      "response": null
     }
   },
   "namespace": "stellar.1"
